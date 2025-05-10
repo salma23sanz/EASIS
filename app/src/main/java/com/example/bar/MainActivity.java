@@ -25,21 +25,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
                 int id = item.getItemId();
 
-                if (id == R.id.action_favorite) {
-                    Toast.makeText(MainActivity.this, "Favorito", Toast.LENGTH_SHORT).show();
-                    return true;
-                } else if (id == R.id.action_search) {
-                    Toast.makeText(MainActivity.this, "Buscar", Toast.LENGTH_SHORT).show();
-                    return true;
-                } else if (id == R.id.action_more) {
-                    Toast.makeText(MainActivity.this, "Más opciones", Toast.LENGTH_SHORT).show();
-                    return true;
-                }
                 if (id == R.id.action_settings) {
                     Toast.makeText(MainActivity.this, "Configuración", Toast.LENGTH_SHORT).show();
-                    return true;
-                } else if (id == R.id.action_help) {
-                    Toast.makeText(MainActivity.this, "Ayuda", Toast.LENGTH_SHORT).show();
                     return true;
                 }
 
