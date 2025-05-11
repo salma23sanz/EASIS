@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import android.widget.ListView;
 import android.widget.Toast;
 import com.example.bar.R;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +15,11 @@ import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
+
+    private ListView lv1;
+    private final String[] nombres ={"Introducción a la coctelería","Tipos de licores y destilados","Herramientas esenciales","Técnicas de preparación","Cómo medir y dosificar ingredientes",
+            "El arte de shake y el stir","Decoración y presentación",
+            "Comó ombinar sabores","Cócteles clásicos y su historia"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
