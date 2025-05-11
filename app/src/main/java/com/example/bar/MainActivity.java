@@ -45,9 +45,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void  lecciones(View view){
-        // MediaPlayer mp=MediaPlayer.create(this,R.raw.argentina_sodastereo);
-        // mp.start();
-        //Toast.makeText(this,"Soda stereo",Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, Lecciones1.class);
         startActivity(intent);
     }

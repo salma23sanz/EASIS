@@ -100,7 +100,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TextView" />
+                android:text="Explorar más"
+                android:textColor="#12F44B" />
         </LinearLayout>
 
         <LinearLayout

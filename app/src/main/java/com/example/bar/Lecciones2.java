@@ -1,5 +1,4 @@
 package com.example.bar;
-
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -15,17 +14,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
-public class Lecciones1 extends AppCompatActivity {
+public class Lecciones2 extends AppCompatActivity {
     private ListView lv1;
-    private final String[] nombres ={"Introducción a la coctelería","Tipos de licores y destilados","Herramientas esenciales","Técnicas de preparación","Cómo medir y dosificar ingredientes",
-            "El arte de shake y el stir","Decoración y presentación",
-            "Comó ombinar sabores","Cócteles clásicos y su historia"};
+    private final String[] nombres ={"Tendencias modernas en mix","El uso de frutas y especias en","Cómo crear tu propio cóctel","Diferencias entre cócteles ","Servicio y protocolo en la ",
+            "Errores comunes y comó evitarlos"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_lecciones1);
+        setContentView(R.layout.activity_lecciones2);
         Window window = getWindow();
         window.setStatusBarColor(Color.parseColor("#3FB356"));
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

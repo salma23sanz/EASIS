@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Lecciones1">
+
+    tools:context=".Lecciones2">
     <!-- Toolbar en la parte superior -->
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
@@ -65,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:backgroundTint="#3FB356"
+                android:backgroundTint="#0E0F0E"
                 android:onClick="lecciones1"
                 android:text="Nivel 1" />
 
@@ -74,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#3FB356"
                 android:onClick="lecciones2"
                 android:text="Nivel 2" />
         </LinearLayout>
